@@ -1,0 +1,166 @@
+1 Gallus Taeniopygia 
+2 Anolis Gallus Taeniopygia 
+3 Anolis Gallus Taeniopygia Xenopus 
+4 Echymipera Isoodon 
+5 Echymipera Isoodon Macrotis 
+6 Dasyurus Myrmecobius 
+7 Dasyurus Echymipera Isoodon Macrotis Myrmecobius 
+8 Cercartetus Trichosurus 
+9 Aepyprymnus Macropus 
+10 Aepyprymnus Hypsiprymnodon Macropus 
+11 Aepyprymnus Cercartetus Hypsiprymnodon Macropus Trichosurus 
+12 Petaurus Pseudochirops 
+13 Petaurus Pseudochirops Tarsipes 
+14 Acrobates Petaurus Pseudochirops Tarsipes 
+15 Acrobates Aepyprymnus Cercartetus Hypsiprymnodon Macropus Petaurus Pseudochirops Tarsipes Trichosurus 
+16 Phascolarctos Vombatus 
+17 Acrobates Aepyprymnus Cercartetus Hypsiprymnodon Macropus Petaurus Phascolarctos Pseudochirops Tarsipes Trichosurus Vombatus 
+18 Acrobates Aepyprymnus Cercartetus Hypsiprymnodon Macropus Notoryctes Petaurus Phascolarctos Pseudochirops Tarsipes Trichosurus Vombatus 
+19 Acrobates Aepyprymnus Cercartetus Dasyurus Echymipera Hypsiprymnodon Isoodon Macropus Macrotis Myrmecobius Notoryctes Petaurus Phascolarctos Pseudochirops Tarsipes Trichosurus Vombatus 
+20 Acrobates Aepyprymnus Cercartetus Dasyurus Dromiciops Echymipera Hypsiprymnodon Isoodon Macropus Macrotis Myrmecobius Notoryctes Petaurus Phascolarctos Pseudochirops Tarsipes Trichosurus Vombatus 
+21 Didelphis Monodelphis 
+22 Didelphis Glironia Monodelphis 
+23 Caluromys Didelphis Glironia Monodelphis 
+24 Acrobates Aepyprymnus Caluromys Cercartetus Dasyurus Didelphis Dromiciops Echymipera Glironia Hypsiprymnodon Isoodon Macropus Macrotis Monodelphis Myrmecobius Notoryctes Petaurus Phascolarctos Pseudochirops Tarsipes Trichosurus Vombatus 
+25 Caenolestes Rhyncholestes 
+26 Acrobates Aepyprymnus Caenolestes Caluromys Cercartetus Dasyurus Didelphis Dromiciops Echymipera Glironia Hypsiprymnodon Isoodon Macropus Macrotis Monodelphis Myrmecobius Notoryctes Petaurus Phascolarctos Pseudochirops Rhyncholestes Tarsipes Trichosurus Vombatus 
+27 Acrobates Aepyprymnus Anolis Caenolestes Caluromys Cercartetus Dasyurus Didelphis Dromiciops Echymipera Gallus Glironia Hypsiprymnodon Isoodon Macropus Macrotis Monodelphis Myrmecobius Notoryctes Petaurus Phascolarctos Pseudochirops Rhyncholestes Taeniopygia Tarsipes Trichosurus Vombatus Xenopus 
+28 Amblysomus Chrysochloris 
+29 Amblysomus Chrysochloris Echinops 
+30 Elephantulus Rhynchocyon 
+31 Amblysomus Chrysochloris Echinops Elephantulus Rhynchocyon 
+32 Dugong Trichechus 
+33 Heterohyrax Procavia 
+34 Dugong Heterohyrax Procavia Trichechus 
+35 Elephas Loxodonta 
+36 Dugong Elephas Heterohyrax Loxodonta Procavia Trichechus 
+37 Dugong Elephas Heterohyrax Loxodonta Orycteropus Procavia Trichechus 
+38 Amblysomus Chrysochloris Dugong Echinops Elephantulus Elephas Heterohyrax Loxodonta Orycteropus Procavia Rhynchocyon Trichechus 
+39 Solenodon Talpa 
+40 Erinaceus Podogymnura 
+41 Erinaceus Podogymnura Sorex 
+42 Erinaceus Podogymnura Solenodon Sorex Talpa 
+43 Inia Pontoporia 
+44 Delphinapterus Phocoena 
+45 Delphinapterus Phocoena Tursiops 
+46 Delphinapterus Inia Phocoena Pontoporia Tursiops 
+47 Delphinapterus Inia Mesoplodon Phocoena Pontoporia Tursiops 
+48 Delphinapterus Inia Mesoplodon Phocoena Platanista Pontoporia Tursiops 
+49 Kogia Physeter 
+50 Delphinapterus Inia Kogia Mesoplodon Phocoena Physeter Platanista Pontoporia Tursiops 
+51 Eschrichtius Megaptera 
+52 Caperea Eschrichtius Megaptera 
+53 Caperea Eschrichtius Eubalaena Megaptera 
+54 Caperea Delphinapterus Eschrichtius Eubalaena Inia Kogia Megaptera Mesoplodon Phocoena Physeter Platanista Pontoporia Tursiops 
+55 Caperea Delphinapterus Eschrichtius Eubalaena Hippopotamidae Inia Kogia Megaptera Mesoplodon Phocoena Physeter Platanista Pontoporia Tursiops 
+56 Bos Moschus 
+57 Bos Cervus Moschus 
+58 Bos Cervus Moschus Okapia 
+59 Antilocapra Bos Cervus Moschus Okapia 
+60 Antilocapra Bos Cervus Moschus Okapia Tragulus 
+61 Antilocapra Bos Caperea Cervus Delphinapterus Eschrichtius Eubalaena Hippopotamidae Inia Kogia Megaptera Mesoplodon Moschus Okapia Phocoena Physeter Platanista Pontoporia Tragulus Tursiops 
+62 Pecari Sus 
+63 Antilocapra Bos Caperea Cervus Delphinapterus Eschrichtius Eubalaena Hippopotamidae Inia Kogia Megaptera Mesoplodon Moschus Okapia Pecari Phocoena Physeter Platanista Pontoporia Sus Tragulus Tursiops 
+64 Antilocapra Bos Caperea Cervus Delphinapterus Eschrichtius Eubalaena Hippopotamidae Inia Kogia Lama Megaptera Mesoplodon Moschus Okapia Pecari Phocoena Physeter Platanista Pontoporia Sus Tragulus Tursiops 
+65 Meles Procyon 
+66 Ailurus Meles Procyon 
+67 Ailurus Meles Mephitis Procyon 
+68 Arctocephalus Odobenus 
+69 Arctocephalus Odobenus Phoca 
+70 Ailurus Arctocephalus Meles Mephitis Odobenus Phoca Procyon 
+71 Ailuropoda Ailurus Arctocephalus Meles Mephitis Odobenus Phoca Procyon 
+72 Ailuropoda Ailurus Arctocephalus Canis Meles Mephitis Odobenus Phoca Procyon 
+73 Fossa Suricata 
+74 Crocuta Fossa Suricata 
+75 Crocuta Fossa Genetta Suricata 
+76 Felis Prionodon 
+77 Crocuta Felis Fossa Genetta Prionodon Suricata 
+78 Crocuta Felis Fossa Genetta Nandinia Prionodon Suricata 
+79 Ailuropoda Ailurus Arctocephalus Canis Crocuta Felis Fossa Genetta Meles Mephitis Nandinia Odobenus Phoca Prionodon Procyon Suricata 
+80 Manis_pentadactyla Manis_tricuspis 
+81 Ailuropoda Ailurus Arctocephalus Canis Crocuta Felis Fossa Genetta Manis_pentadactyla Manis_tricuspis Meles Mephitis Nandinia Odobenus Phoca Prionodon Procyon Suricata 
+82 Ceratotherium Tapirus 
+83 Ceratotherium Equus Tapirus 
+84 Ailuropoda Ailurus Arctocephalus Canis Ceratotherium Crocuta Equus Felis Fossa Genetta Manis_pentadactyla Manis_tricuspis Meles Mephitis Nandinia Odobenus Phoca Prionodon Procyon Suricata Tapirus 
+85 Craseonycteris Megaderma 
+86 Craseonycteris Megaderma Rhinopoma 
+87 Hipposideros Rhinolophus 
+88 Craseonycteris Hipposideros Megaderma Rhinolophus Rhinopoma 
+89 Nyctimene Pteropus 
+90 Craseonycteris Hipposideros Megaderma Nyctimene Pteropus Rhinolophus Rhinopoma 
+91 Myzopoda Nycteris 
+92 Artibeus Pteronotus 
+93 Furipterus Noctilio 
+94 Artibeus Furipterus Noctilio Pteronotus 
+95 Artibeus Furipterus Noctilio Pteronotus Thyroptera 
+96 Artibeus Furipterus Mystacina Noctilio Pteronotus Thyroptera 
+97 Artibeus Furipterus Mystacina Myzopoda Noctilio Nycteris Pteronotus Thyroptera 
+98 Miniopterus Myotis 
+99 Miniopterus Myotis Tadarida 
+100 Miniopterus Myotis Natalus Tadarida 
+101 Artibeus Furipterus Miniopterus Myotis Mystacina Myzopoda Natalus Noctilio Nycteris Pteronotus Tadarida Thyroptera 
+102 Artibeus Emballonuridae Furipterus Miniopterus Myotis Mystacina Myzopoda Natalus Noctilio Nycteris Pteronotus Tadarida Thyroptera 
+103 Artibeus Craseonycteris Emballonuridae Furipterus Hipposideros Megaderma Miniopterus Myotis Mystacina Myzopoda Natalus Noctilio Nycteris Nyctimene Pteronotus Pteropus Rhinolophus Rhinopoma Tadarida Thyroptera 
+104 Ailuropoda Ailurus Arctocephalus Artibeus Canis Ceratotherium Craseonycteris Crocuta Emballonuridae Equus Felis Fossa Furipterus Genetta Hipposideros Manis_pentadactyla Manis_tricuspis Megaderma Meles Mephitis Miniopterus Myotis Mystacina Myzopoda Nandinia Natalus Noctilio Nycteris Nyctimene Odobenus Phoca Prionodon Procyon Pteronotus Pteropus Rhinolophus Rhinopoma Suricata Tadarida Tapirus Thyroptera 
+105 Ailuropoda Ailurus Antilocapra Arctocephalus Artibeus Bos Canis Caperea Ceratotherium Cervus Craseonycteris Crocuta Delphinapterus Emballonuridae Equus Eschrichtius Eubalaena Felis Fossa Furipterus Genetta Hippopotamidae Hipposideros Inia Kogia Lama Manis_pentadactyla Manis_tricuspis Megaderma Megaptera Meles Mephitis Mesoplodon Miniopterus Moschus Myotis Mystacina Myzopoda Nandinia Natalus Noctilio Nycteris Nyctimene Odobenus Okapia Pecari Phoca Phocoena Physeter Platanista Pontoporia Prionodon Procyon Pteronotus Pteropus Rhinolophus Rhinopoma Suricata Sus Tadarida Tapirus Thyroptera Tragulus Tursiops 
+106 Ailuropoda Ailurus Antilocapra Arctocephalus Artibeus Bos Canis Caperea Ceratotherium Cervus Craseonycteris Crocuta Delphinapterus Emballonuridae Equus Erinaceus Eschrichtius Eubalaena Felis Fossa Furipterus Genetta Hippopotamidae Hipposideros Inia Kogia Lama Manis_pentadactyla Manis_tricuspis Megaderma Megaptera Meles Mephitis Mesoplodon Miniopterus Moschus Myotis Mystacina Myzopoda Nandinia Natalus Noctilio Nycteris Nyctimene Odobenus Okapia Pecari Phoca Phocoena Physeter Platanista Podogymnura Pontoporia Prionodon Procyon Pteronotus Pteropus Rhinolophus Rhinopoma Solenodon Sorex Suricata Sus Tadarida Talpa Tapirus Thyroptera Tragulus Tursiops 
+107 Callithrix Cebus 
+108 Ateles Callithrix Cebus 
+109 Homo Nomascus 
+110 Homo Macaca Nomascus 
+111 Ateles Callithrix Cebus Homo Macaca Nomascus 
+112 Ateles Callithrix Cebus Homo Macaca Nomascus Tarsius 
+113 Microcebus Propithecus 
+114 Lemur Microcebus Propithecus 
+115 Daubentonia Lemur Microcebus Propithecus 
+116 Nycticebus Otolemur 
+117 Daubentonia Lemur Microcebus Nycticebus Otolemur Propithecus 
+118 Ateles Callithrix Cebus Daubentonia Homo Lemur Macaca Microcebus Nomascus Nycticebus Otolemur Propithecus Tarsius 
+119 Cynocephalus Galeopterus 
+120 Ateles Callithrix Cebus Cynocephalus Daubentonia Galeopterus Homo Lemur Macaca Microcebus Nomascus Nycticebus Otolemur Propithecus Tarsius 
+121 Anomalurus Pedetes 
+122 Calomyscidae Cricetus 
+123 Calomyscidae Cricetus Mus 
+124 Calomyscidae Cricetus Mus Petromyscus 
+125 Calomyscidae Cricetus Mus Petromyscus Spalax 
+126 Calomyscidae Cricetus Jaculus Mus Petromyscus Spalax 
+127 Anomalurus Calomyscidae Cricetus Jaculus Mus Pedetes Petromyscus Spalax 
+128 Dipodomys Geomyidae 
+129 Castor Dipodomys Geomyidae 
+130 Anomalurus Calomyscidae Castor Cricetus Dipodomys Geomyidae Jaculus Mus Pedetes Petromyscus Spalax 
+131 Ctenodactylus Laonastes 
+132 Petromus Thryonomys 
+133 Heterocephalus Petromus Thryonomys 
+134 Cavia Hydrochaeris 
+135 Cavia Dasyprocta Hydrochaeris 
+136 Agouti Cavia Dasyprocta Hydrochaeris 
+137 Agouti Cavia Dasyprocta Erethizon Hydrochaeris 
+138 Chinchilla Dinomys 
+139 Ctenomys Octodontomys 
+140 Hoplomys Myocastor 
+141 Capromys Hoplomys Myocastor 
+142 Capromys Ctenomys Hoplomys Myocastor Octodontomys 
+143 Abrocoma Capromys Ctenomys Hoplomys Myocastor Octodontomys 
+144 Abrocoma Capromys Chinchilla Ctenomys Dinomys Hoplomys Myocastor Octodontomys 
+145 Abrocoma Agouti Capromys Cavia Chinchilla Ctenomys Dasyprocta Dinomys Erethizon Hoplomys Hydrochaeris Myocastor Octodontomys 
+146 Abrocoma Agouti Capromys Cavia Chinchilla Ctenomys Dasyprocta Dinomys Erethizon Heterocephalus Hoplomys Hydrochaeris Myocastor Octodontomys Petromus Thryonomys 
+147 Abrocoma Agouti Capromys Cavia Chinchilla Ctenomys Dasyprocta Dinomys Erethizon Heterocephalus Hoplomys Hydrochaeris Hystrix Myocastor Octodontomys Petromus Thryonomys 
+148 Abrocoma Agouti Capromys Cavia Chinchilla Ctenodactylus Ctenomys Dasyprocta Dinomys Erethizon Heterocephalus Hoplomys Hydrochaeris Hystrix Laonastes Myocastor Octodontomys Petromus Thryonomys 
+149 Abrocoma Agouti Anomalurus Calomyscidae Capromys Castor Cavia Chinchilla Cricetus Ctenodactylus Ctenomys Dasyprocta Dinomys Dipodomys Erethizon Geomyidae Heterocephalus Hoplomys Hydrochaeris Hystrix Jaculus Laonastes Mus Myocastor Octodontomys Pedetes Petromus Petromyscus Spalax Thryonomys 
+150 Aplodontia Sciuridae 
+151 Aplodontia Gliridae Sciuridae 
+152 Abrocoma Agouti Anomalurus Aplodontia Calomyscidae Capromys Castor Cavia Chinchilla Cricetus Ctenodactylus Ctenomys Dasyprocta Dinomys Dipodomys Erethizon Geomyidae Gliridae Heterocephalus Hoplomys Hydrochaeris Hystrix Jaculus Laonastes Mus Myocastor Octodontomys Pedetes Petromus Petromyscus Sciuridae Spalax Thryonomys 
+153 Leporidae Ochotona 
+154 Abrocoma Agouti Anomalurus Aplodontia Calomyscidae Capromys Castor Cavia Chinchilla Cricetus Ctenodactylus Ctenomys Dasyprocta Dinomys Dipodomys Erethizon Geomyidae Gliridae Heterocephalus Hoplomys Hydrochaeris Hystrix Jaculus Laonastes Leporidae Mus Myocastor Ochotona Octodontomys Pedetes Petromus Petromyscus Sciuridae Spalax Thryonomys 
+155 Ptilocercus Tupaia 
+156 Abrocoma Agouti Anomalurus Aplodontia Calomyscidae Capromys Castor Cavia Chinchilla Cricetus Ctenodactylus Ctenomys Dasyprocta Dinomys Dipodomys Erethizon Geomyidae Gliridae Heterocephalus Hoplomys Hydrochaeris Hystrix Jaculus Laonastes Leporidae Mus Myocastor Ochotona Octodontomys Pedetes Petromus Petromyscus Ptilocercus Sciuridae Spalax Thryonomys Tupaia 
+157 Abrocoma Agouti Anomalurus Aplodontia Ateles Callithrix Calomyscidae Capromys Castor Cavia Cebus Chinchilla Cricetus Ctenodactylus Ctenomys Cynocephalus Dasyprocta Daubentonia Dinomys Dipodomys Erethizon Galeopterus Geomyidae Gliridae Heterocephalus Homo Hoplomys Hydrochaeris Hystrix Jaculus Laonastes Lemur Leporidae Macaca Microcebus Mus Myocastor Nomascus Nycticebus Ochotona Octodontomys Otolemur Pedetes Petromus Petromyscus Propithecus Ptilocercus Sciuridae Spalax Tarsius Thryonomys Tupaia 
+158 Abrocoma Agouti Ailuropoda Ailurus Anomalurus Antilocapra Aplodontia Arctocephalus Artibeus Ateles Bos Callithrix Calomyscidae Canis Caperea Capromys Castor Cavia Cebus Ceratotherium Cervus Chinchilla Craseonycteris Cricetus Crocuta Ctenodactylus Ctenomys Cynocephalus Dasyprocta Daubentonia Delphinapterus Dinomys Dipodomys Emballonuridae Equus Erethizon Erinaceus Eschrichtius Eubalaena Felis Fossa Furipterus Galeopterus Genetta Geomyidae Gliridae Heterocephalus Hippopotamidae Hipposideros Homo Hoplomys Hydrochaeris Hystrix Inia Jaculus Kogia Lama Laonastes Lemur Leporidae Macaca Manis_pentadactyla Manis_tricuspis Megaderma Megaptera Meles Mephitis Mesoplodon Microcebus Miniopterus Moschus Mus Myocastor Myotis Mystacina Myzopoda Nandinia Natalus Noctilio Nomascus Nycteris Nycticebus Nyctimene Ochotona Octodontomys Odobenus Okapia Otolemur Pecari Pedetes Petromus Petromyscus Phoca Phocoena Physeter Platanista Podogymnura Pontoporia Prionodon Procyon Propithecus Pteronotus Pteropus Ptilocercus Rhinolophus Rhinopoma Sciuridae Solenodon Sorex Spalax Suricata Sus Tadarida Talpa Tapirus Tarsius Thryonomys Thyroptera Tragulus Tupaia Tursiops 
+159 Bradypus Choloepus 
+160 Cyclopes Myrmecophaga 
+161 Bradypus Choloepus Cyclopes Myrmecophaga 
+162 Bradypus Choloepus Cyclopes Dasypus Myrmecophaga 
+163 Abrocoma Agouti Ailuropoda Ailurus Anomalurus Antilocapra Aplodontia Arctocephalus Artibeus Ateles Bos Bradypus Callithrix Calomyscidae Canis Caperea Capromys Castor Cavia Cebus Ceratotherium Cervus Chinchilla Choloepus Craseonycteris Cricetus Crocuta Ctenodactylus Ctenomys Cyclopes Cynocephalus Dasyprocta Dasypus Daubentonia Delphinapterus Dinomys Dipodomys Emballonuridae Equus Erethizon Erinaceus Eschrichtius Eubalaena Felis Fossa Furipterus Galeopterus Genetta Geomyidae Gliridae Heterocephalus Hippopotamidae Hipposideros Homo Hoplomys Hydrochaeris Hystrix Inia Jaculus Kogia Lama Laonastes Lemur Leporidae Macaca Manis_pentadactyla Manis_tricuspis Megaderma Megaptera Meles Mephitis Mesoplodon Microcebus Miniopterus Moschus Mus Myocastor Myotis Myrmecophaga Mystacina Myzopoda Nandinia Natalus Noctilio Nomascus Nycteris Nycticebus Nyctimene Ochotona Octodontomys Odobenus Okapia Otolemur Pecari Pedetes Petromus Petromyscus Phoca Phocoena Physeter Platanista Podogymnura Pontoporia Prionodon Procyon Propithecus Pteronotus Pteropus Ptilocercus Rhinolophus Rhinopoma Sciuridae Solenodon Sorex Spalax Suricata Sus Tadarida Talpa Tapirus Tarsius Thryonomys Thyroptera Tragulus Tupaia Tursiops 
+164 Abrocoma Agouti Ailuropoda Ailurus Amblysomus Anomalurus Antilocapra Aplodontia Arctocephalus Artibeus Ateles Bos Bradypus Callithrix Calomyscidae Canis Caperea Capromys Castor Cavia Cebus Ceratotherium Cervus Chinchilla Choloepus Chrysochloris Craseonycteris Cricetus Crocuta Ctenodactylus Ctenomys Cyclopes Cynocephalus Dasyprocta Dasypus Daubentonia Delphinapterus Dinomys Dipodomys Dugong Echinops Elephantulus Elephas Emballonuridae Equus Erethizon Erinaceus Eschrichtius Eubalaena Felis Fossa Furipterus Galeopterus Genetta Geomyidae Gliridae Heterocephalus Heterohyrax Hippopotamidae Hipposideros Homo Hoplomys Hydrochaeris Hystrix Inia Jaculus Kogia Lama Laonastes Lemur Leporidae Loxodonta Macaca Manis_pentadactyla Manis_tricuspis Megaderma Megaptera Meles Mephitis Mesoplodon Microcebus Miniopterus Moschus Mus Myocastor Myotis Myrmecophaga Mystacina Myzopoda Nandinia Natalus Noctilio Nomascus Nycteris Nycticebus Nyctimene Ochotona Octodontomys Odobenus Okapia Orycteropus Otolemur Pecari Pedetes Petromus Petromyscus Phoca Phocoena Physeter Platanista Podogymnura Pontoporia Prionodon Procavia Procyon Propithecus Pteronotus Pteropus Ptilocercus Rhinolophus Rhinopoma Rhynchocyon Sciuridae Solenodon Sorex Spalax Suricata Sus Tadarida Talpa Tapirus Tarsius Thryonomys Thyroptera Tragulus Trichechus Tupaia Tursiops 
+165 Ornithorhynchus Tachyglossus 
+166 Abrocoma Agouti Ailuropoda Ailurus Amblysomus Anomalurus Antilocapra Aplodontia Arctocephalus Artibeus Ateles Bos Bradypus Callithrix Calomyscidae Canis Caperea Capromys Castor Cavia Cebus Ceratotherium Cervus Chinchilla Choloepus Chrysochloris Craseonycteris Cricetus Crocuta Ctenodactylus Ctenomys Cyclopes Cynocephalus Dasyprocta Dasypus Daubentonia Delphinapterus Dinomys Dipodomys Dugong Echinops Elephantulus Elephas Emballonuridae Equus Erethizon Erinaceus Eschrichtius Eubalaena Felis Fossa Furipterus Galeopterus Genetta Geomyidae Gliridae Heterocephalus Heterohyrax Hippopotamidae Hipposideros Homo Hoplomys Hydrochaeris Hystrix Inia Jaculus Kogia Lama Laonastes Lemur Leporidae Loxodonta Macaca Manis_pentadactyla Manis_tricuspis Megaderma Megaptera Meles Mephitis Mesoplodon Microcebus Miniopterus Moschus Mus Myocastor Myotis Myrmecophaga Mystacina Myzopoda Nandinia Natalus Noctilio Nomascus Nycteris Nycticebus Nyctimene Ochotona Octodontomys Odobenus Okapia Ornithorhynchus Orycteropus Otolemur Pecari Pedetes Petromus Petromyscus Phoca Phocoena Physeter Platanista Podogymnura Pontoporia Prionodon Procavia Procyon Propithecus Pteronotus Pteropus Ptilocercus Rhinolophus Rhinopoma Rhynchocyon Sciuridae Solenodon Sorex Spalax Suricata Sus Tachyglossus Tadarida Talpa Tapirus Tarsius Thryonomys Thyroptera Tragulus Trichechus Tupaia Tursiops 
