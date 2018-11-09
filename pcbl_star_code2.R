@@ -1,14 +1,13 @@
 args <- commandArgs(TRUE)
 
-if (length(args) != 3) stop ("Required command line arugments are: input_tree_file outgroup_name output_name")
+if (length(args) != 7) stop ("Required command line arugments are: input_tree_file  outgroup_name  output_name  start_tree_num  end_tree_num  batch_num  spp_tree_file")
 
 library(phybase, warn.conflicts=FALSE)
 
 #define output file names by adding various extensions to the provided base names
-output_trees = paste (args[3], "_trees.txt", sep="")
-output_pcbl = paste (args[3], "_pcbl.txt", sep="")
-output_nodes = paste (args[3], "_node_defs.txt", sep="")
-output_presence_absence = paste (args[3], "_node_presence.txt", sep="")
+output_trees = paste (args[3], "_trees_", args[6], ".txt", sep="")
+output_pcbl = paste (args[3], "_pcbl_", args[6], ".txt", sep="")
+output_presence_absence = paste (args[3], "_node_presence_", args[6], ".txt", sep="")
 
 genetrees<-read.tree.string(file=args[1],format="phylip")
 
@@ -27,23 +26,28 @@ numtax=length(genetrees$names)
 species.structure<-matrix(0,numtax,numtax)
 diag(species.structure)<-1
 
-#generate species tree with STAR based on all gene trees. Note this requires specification of a single terminal as an outgroup for rooting the resulting trees. This is specificied by the user on the command line 
-full_sptree = star.sptree(genetrees$tree, speciesname=genetrees$names, taxaname=genetrees$names,species.structure=species.structure, outgroup=args[2], method="nj")
-
-sink(output_trees)
-cat ("STAR tree based on full set of gene trees...\n", full_sptree, "\n\nSTAR trees based on removal of one gene tree at a time...\n", sep="")
+#read in previously generated species tree
+full_sptree_obj = read.tree(args[7])
+full_sptree = write.tree(root(full_sptree_obj, args[2], resolve.root=TRUE))
 
 #extract node information from full species tree
 full_sptree_nodes = read.tree.nodes(full_sptree)
 
+#define number of trees based on provided start and end indexes
+start_tree_num = as.numeric(args[4]);
+end_tree_num = as.numeric(args[5]);
+
+num_gene_trees = end_tree_num - start_tree_num + 1;
+
 #define empty matrix to store pcbl scores
-pcbl_mat = matrix(, nrow=length(genetrees$tree), ncol=length(genetrees$names)-3)
+pcbl_mat = matrix(, nrow=num_gene_trees, ncol=length(genetrees$names)-3)
 
 #define empty matrix to store node presence/absence info. This will include a 1 if a node is still in a species tree after removing a given gene tree and a 0 if not.
-presence_absence_mat = matrix(, nrow=length(genetrees$tree), ncol=length(genetrees$names)-3)
+presence_absence_mat = matrix(, nrow=num_gene_trees, ncol=length(genetrees$names)-3)
 
+sink(output_trees)
 #loop through each gene tree
-for (gt in 1:length(genetrees$tree)){
+for (gt in start_tree_num:end_tree_num){
 	#generate new species tree based on all gene trees except the current one
 	sub_sptree=star.sptree(genetrees$tree[-gt], speciesname=genetrees$names, taxaname=genetrees$names,species.structure=species.structure, outgroup=args[2], method="nj")
 	
@@ -52,8 +56,8 @@ for (gt in 1:length(genetrees$tree)){
 	if (class(sub_sptree_obj) != "phylo"){
 		cat ("Warning: skipping analysis of gene tree ", gt, " because no species tree was produced after removing this tree.\n", sep="");
 		cat (sub_sptree, "\n")
-		pcbl_mat[gt, 1] = "Skipped"
-		presence_absence_mat[gt, 1] = "Skipped"
+		pcbl_mat[gt - start_tree_num + 1, 1] = "Skipped"
+		presence_absence_mat[gt - start_tree_num + 1, 1] = "Skipped"
 		next
 	}
 
@@ -95,8 +99,8 @@ for (gt in 1:length(genetrees$tree)){
 			sub_bl = sub_sptree_nodes$nodes[match_node,4]
 			present = 1
 		}
-		pcbl_mat[gt, internal_node_count] = full_sptree_nodes$nodes[node,4] - sub_bl
-		presence_absence_mat[gt, internal_node_count] = present
+		pcbl_mat[gt - start_tree_num + 1, internal_node_count] = full_sptree_nodes$nodes[node,4] - sub_bl
+		presence_absence_mat[gt - start_tree_num + 1, internal_node_count] = present
 		
 	}
 }
@@ -107,21 +111,3 @@ write.table(pcbl_mat, file=output_pcbl, sep ="\t", row.names=FALSE)
 
 #print presence/absence matrix to output file
 write.table(presence_absence_mat, file=output_presence_absence, sep ="\t", row.names=FALSE)
-
-
-#print definition of nodes to output file
-sink(output_nodes)
-internal_node_count2 = 0
-#loop through each node, and obtain all taxa names that are descendents of that node
-for (node in 1:dim(full_sptree_nodes$nodes)[1]){
-	
-	full_node_indexes2 = offspring.species(node,full_sptree_nodes$nodes,numtax)
-	if (length(full_node_indexes2) == 1 || length(full_node_indexes2) >= numtax - 1) next
-	internal_node_count2 = internal_node_count2 + 1
-	full_node_names2 = c();
-	for (index_counter2 in 1:length(full_node_indexes2)){
-		full_node_names2[index_counter2] = full_sptree_nodes$names[full_node_indexes2[index_counter2]]
-	}	
-	cat (internal_node_count2, sort(full_node_names2), "\n")
-}
-sink()
