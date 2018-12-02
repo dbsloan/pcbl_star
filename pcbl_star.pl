@@ -36,7 +36,11 @@ my $usage =
    Outgroup species:
    
       --outgroup     - name of outgroup taxon (must be a single species, not a
-                       clade)
+                       clade). Rooting of the output species tree is required
+                       for data processing, but the position of the root does
+                       not affect PCBL calculations for any bipartitions within
+                       the tree. Therefore, it is OK to arbitrarily select one
+                       species if the actual outgroup is a clade.
 
    Base name for output files:
    
@@ -57,7 +61,7 @@ my $usage =
 
    Subsetting jobs by tree numbers:
    
-      --start_tree   - tree number to end with if only doing PCBL calculations
+      --start_tree   - tree number to start with if only doing PCBL calculations
                        on a subset of trees. Note that reference species tree
                        will still be inferred from all gene trees. This is used
                        to split up an analysis across multiple different

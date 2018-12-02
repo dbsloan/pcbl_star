@@ -37,7 +37,11 @@ Usage: `perl pcbl_star.pl [arguments]`
    Outgroup species:
    
       --outgroup     - name of outgroup taxon (must be a single species, not a
-                       clade)
+                       clade). Rooting of the output species tree is required
+                       for data processing, but the position of the root does
+                       not affect PCBL calculations for any bipartitions within
+                       the tree. Therefore, it is OK to arbitrarily select one
+                       species if the actual outgroup is a clade.
 
    Base name for output files:
    
@@ -58,7 +62,7 @@ Usage: `perl pcbl_star.pl [arguments]`
 
    Subsetting jobs by tree numbers:
    
-      --start_tree   - tree number to end with if only doing PCBL calculations
+      --start_tree   - tree number to start with if only doing PCBL calculations
                        on a subset of trees. Note that reference species tree
                        will still be inferred from all gene trees. This is used
                        to split up an analysis across multiple different
@@ -105,7 +109,7 @@ A text file with the inferred species tree based on all gene trees (newick forma
 A text file with the species trees inferred after removing one gene tree at a time in order (newick format). There is one tree per line. The first line is a note about the file contents. Warnings about excluded trees will also appear in this file (for example, if removing a gene tree prevents building a species tree because it removes the only tree in which a specific pair of taxa co-occur).
 
 #### Output\_node_presence.txt
-A tab-delimited text file, indicating which nodes from the full species-tree are retained (1) or lost (0) after removing each gene tree and reanalyzing.
+A tab-delimited text file, indicating which nodes from the full species-tree are retained (1) or lost (0) after removing each gene tree and reanalyzing. Nodes that are lost may be of interest, as they indicate that removal of a single gene tree from the dataset can be sufficient to alter topological inferences from the full analysis.
 
 #### Output\_node_defs.txt
 A text file defining the node numbering scheme used in `Output_pcbl.txt` and `Output_node_presence.txt`. The taxa descended from each node are listed.
